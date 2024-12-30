@@ -1,0 +1,28 @@
+[project]
+name = "llm-web-search"
+version = "0.1.0"
+description = "LLM plugin for web search using Google and Bing APIs with LLM-powered result processing"
+readme = "README.md"
+authors = [{name = "Your Name", email = "you@example.com"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm",
+    "click",
+    "httpx",
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://github.com/irthomasthomas/llm-web-search"
+Changelog = "https://github.com/irthomasthomas/llm-web-search/releases"
+Issues = "https://github.com/irthomasthomas/llm-web-search/issues"
+
+[project.entry-points.llm]
+web-search = "llm_web_search"
+
+[tool.pytest.ini_options]
+addopts = "--assert=plain"
+pythonpath = "."
