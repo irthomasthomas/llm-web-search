@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: llm-web-search
+Version: 0.1.0
+Summary: LLM plugin for web search using Google and Bing APIs with LLM-powered result processing
+Author-email: Thomas Hughes <ir.thomasthomas@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/irthomasthomas/llm-web-search
+Project-URL: Changelog, https://github.com/irthomasthomas/llm-web-search/releases
+Project-URL: Issues, https://github.com/irthomasthomas/llm-web-search/issues
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+Requires-Dist: llm
+Requires-Dist: click
+Requires-Dist: httpx
+Requires-Dist: pydantic
+Requires-Dist: aiofiles
+Requires-Dist: shot-scraper
+Requires-Dist: html2text
+
 # llm-web-search
 
 [![PyPI](https://img.shields.io/pypi/v/llm-web-search.svg)](https://pypi.org/project/llm-web-search/)

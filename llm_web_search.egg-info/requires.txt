@@ -1,0 +1,7 @@
+llm
+click
+httpx
+pydantic
+aiofiles
+shot-scraper
+html2text

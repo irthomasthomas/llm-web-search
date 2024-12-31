@@ -1,0 +1,2 @@
+[llm]
+web-search = llm_web_search

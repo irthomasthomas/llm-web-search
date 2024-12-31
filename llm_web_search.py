@@ -390,7 +390,7 @@ def register_commands(cli):
         default="/home/ShellLM/Projects/claude.sh/utils/search/bing-search.sh",
         help="Path to the local bing-search.sh script.",
     )
-    def web_search(
+    def web(
         search_query: str,
         engine: str,
         num_results: int,
